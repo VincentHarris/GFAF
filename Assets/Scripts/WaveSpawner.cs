@@ -21,6 +21,7 @@ public class WaveSpawner : MonoBehaviour
     void OnEnable()
     {
         EnemiesAlive = 0;
+        EnemiesKilled = 0;
     }
 
         void Update()
