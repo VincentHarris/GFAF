@@ -19,12 +19,16 @@ public class GameOver : MonoBehaviour
     */
     public void tryAgain ()
     {
+        //Toggle();
         sceneFader.FadeTo(SceneManager.GetActiveScene().name);
+         WaveSpawner.EnemiesAlive = 0;
     }
 
     public void menu()
     {
+       // Toggle();
         sceneFader.FadeTo(menuSceneName);
+        WaveSpawner.EnemiesAlive = 0;
     }
 
 //use this if scene fader doesn't work

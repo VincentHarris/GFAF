@@ -35,12 +35,14 @@ public class PauseMenu : MonoBehaviour
     {
         Toggle();
         sceneFader.FadeTo(SceneManager.GetActiveScene().name); 
+       // WaveSpawner.EnemiesAlive = 0;
     }
 
     public void Menu ()
     {
         Toggle();
         sceneFader.FadeTo(menuSceneName);
+       // WaveSpawner.EnemiesAlive = 0;
     }
 
 //use this if scenefader doesn't work

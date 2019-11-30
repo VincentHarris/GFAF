@@ -4,7 +4,7 @@ using UnityEngine.UI; //so we can reference a text object
 
 public class WaveSpawner : MonoBehaviour
 {
-    public static int EnemiesAlive =0;
+    public static int EnemiesAlive; //=0;
     public static int EnemiesKilled =0;
 
     public Wave[] waves;
@@ -17,6 +17,11 @@ public class WaveSpawner : MonoBehaviour
     public Text waveCountDownText;
     public GameManager gameManager;
     private int waveIndex = 0;
+
+    void OnEnable()
+    {
+        EnemiesAlive = 0;
+    }
 
         void Update()
         {
