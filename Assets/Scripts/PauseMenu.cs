@@ -6,6 +6,7 @@ public class PauseMenu : MonoBehaviour
     public GameObject ui;
     public SceneFader sceneFader;
     public string menuSceneName = "mainmenu";
+    public string reload = "Level2";
 
     void Update ()
     {
@@ -34,7 +35,8 @@ public class PauseMenu : MonoBehaviour
     public void Retry ()
     {
         Toggle();
-        sceneFader.FadeTo(SceneManager.GetActiveScene().name); 
+        sceneFader.FadeTo(reload);
+        //sceneFader.FadeTo(SceneManager.GetActiveScene().name); 
        // WaveSpawner.EnemiesAlive = 0;
     }
 

@@ -1437,6 +1437,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59b6391c68926a5449cf20fb91f185f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fader: {fileID: 1658142715}
+  menuSceneName: mainmenu
+  nextLevelName: Level2
 --- !u!1 &128401852
 GameObject:
   m_ObjectHideFlags: 0
@@ -10054,7 +10057,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Continue (WIP)
+  m_Text: Continue
 --- !u!222 &1032082729
 CanvasRenderer:
   m_ObjectHideFlags: 0

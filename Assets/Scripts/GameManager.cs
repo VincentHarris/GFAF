@@ -21,8 +21,6 @@ public class GameManager : MonoBehaviour
         if (gameOver)
             return;
 
-
-
         if (PlayerStats.Lives <= 0)
         {
             LoseGame();
@@ -37,12 +35,7 @@ public class GameManager : MonoBehaviour
     void LoseGame()
     {
         gameOver = true;
-
         gameOverUI.SetActive(true);
-        //Debug.Log("GLV, NO! WE'RE ALL DEAAAAAAAD!!");
-
-        //Tried making  so that once you ran out of lives, it'll send us back to the main menu
-        //SceneManager.LoadScene("mainmenu", LoadSceneMode.Additive); 
     }
 
     public void WinLevel()

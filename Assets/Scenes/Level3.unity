@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: d11fb900c39ce024f8392906d7edbd94, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -1437,6 +1437,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59b6391c68926a5449cf20fb91f185f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fader: {fileID: 0}
+  menuSceneName: mainmenu
+  nextLevelName2: Level2
+  nextLevelName3: Level3
 --- !u!1 &128401852
 GameObject:
   m_ObjectHideFlags: 0
@@ -7075,6 +7079,7 @@ MonoBehaviour:
   ui: {fileID: 1367994716}
   sceneFader: {fileID: 1658142715}
   menuSceneName: mainmenu
+  reload: Level2
 --- !u!1001 &713872430
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9595,7 +9600,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &987267821
 Transform:
   m_ObjectHideFlags: 0
@@ -10054,7 +10059,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Continue (WIP)
+  m_Text: Thank You For Playing!
 --- !u!222 &1032082729
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -13746,7 +13751,7 @@ GameObject:
   - component: {fileID: 1405440227}
   - component: {fileID: 1405440226}
   m_Layer: 5
-  m_Name: MenuButton
+  m_Name: EndButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13816,7 +13821,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 115854892}
-        m_MethodName: menu
+        m_MethodName: end
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -15837,7 +15842,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 115854892}
-        m_MethodName: cont
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -17186,7 +17191,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 5cdfe483e0d8acf409f6e3f8493ac64c, type: 3}
+  m_audioClip: {fileID: 8300000, guid: c4dc48e75c6ff21469ce2b178e47d719, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -19383,7 +19388,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Main Menu
+  m_Text: End
 --- !u!222 &1963920878
 CanvasRenderer:
   m_ObjectHideFlags: 0
