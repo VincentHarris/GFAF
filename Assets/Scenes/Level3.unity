@@ -2158,8 +2158,10 @@ Transform:
   - {fileID: 961736}
   - {fileID: 401105434}
   - {fileID: 159566559}
+  - {fileID: 1107062655}
   - {fileID: 1544321358}
   - {fileID: 806837218}
+  - {fileID: 1763186235}
   - {fileID: 164267276}
   - {fileID: 1430160941}
   - {fileID: 2120820898}
@@ -2202,8 +2204,6 @@ Transform:
   - {fileID: 15892071}
   - {fileID: 716820676}
   - {fileID: 936962753}
-  - {fileID: 1107062655}
-  - {fileID: 1763186235}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3832,7 +3832,7 @@ MonoBehaviour:
   ui: {fileID: 1367994716}
   sceneFader: {fileID: 1658142715}
   menuSceneName: mainmenu
-  reload: Level2
+  reload: Level3
 --- !u!1001 &716820675
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12095,7 +12095,7 @@ PrefabInstance:
     - target: {fileID: 986736245701980767, guid: f668cc3d31a867c45bb095230e32db85,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 986736245701980761, guid: f668cc3d31a867c45bb095230e32db85,
         type: 3}
