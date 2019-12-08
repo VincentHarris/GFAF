@@ -3726,9 +3726,9 @@ Transform:
   - {fileID: 1869800499}
   - {fileID: 1684192907}
   - {fileID: 1545769748}
-  - {fileID: 2039460575}
   - {fileID: 224635659}
   - {fileID: 1375893327}
+  - {fileID: 2039460575}
   - {fileID: 655435591}
   - {fileID: 32368883}
   - {fileID: 83421842}
@@ -3745,9 +3745,9 @@ Transform:
   - {fileID: 806837218}
   - {fileID: 164267276}
   - {fileID: 1430160941}
-  - {fileID: 1967034894}
   - {fileID: 850652602}
   - {fileID: 2059704603}
+  - {fileID: 1967034894}
   - {fileID: 620238492}
   - {fileID: 1239945818}
   - {fileID: 1631277534}
@@ -3804,9 +3804,9 @@ Transform:
   - {fileID: 1146747941}
   - {fileID: 1418688238}
   - {fileID: 115252986}
+  - {fileID: 2075538437}
   - {fileID: 1494755669}
   - {fileID: 383424118}
-  - {fileID: 2075538437}
   - {fileID: 795143423}
   - {fileID: 118023000}
   - {fileID: 712521240}
@@ -6349,20 +6349,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waves:
-  - enemy: {fileID: 1171846590003678, guid: 2bc37f10c5f270345b0f1818d8e45a3f, type: 3}
+  - enemy: {fileID: 7833181228575685636, guid: 4a3683001e7dd4f46a0b79c64eee0b71, type: 3}
     count: 7
     rate: 1
-  - enemy: {fileID: 1334602605673236, guid: 62539ebc4e8a4644185def72ef53b393, type: 3}
-    count: 3
+  - enemy: {fileID: 1758568481531714, guid: 37443d0eb745ca340b22a9ac2aafb4e6, type: 3}
+    count: 1
     rate: 1
-  - enemy: {fileID: 4415865209884733850, guid: e8a553f527b15bc4fa7e9e5a724f9d3e, type: 3}
+  - enemy: {fileID: 277369232417222239, guid: b1b06046c8ebd5e49be226ced29555de, type: 3}
     count: 4
     rate: 2
-  - enemy: {fileID: 1907740543383132, guid: cb508bf5be6e9134f8ccc9f0fd8a8cc1, type: 3}
+  - enemy: {fileID: 7833181228575685636, guid: 4a3683001e7dd4f46a0b79c64eee0b71, type: 3}
     count: 5
     rate: 1
-  - enemy: {fileID: 4415865209884733850, guid: e8a553f527b15bc4fa7e9e5a724f9d3e, type: 3}
-    count: 1
+  - enemy: {fileID: 1758568481531714, guid: 37443d0eb745ca340b22a9ac2aafb4e6, type: 3}
+    count: 3
     rate: 2
   spawnPoint: {fileID: 1524867529}
   timeBetweenWaves: 5
@@ -6396,8 +6396,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   standardTurretPrefab: {fileID: 6547975050755772716, guid: 4ccc380d20a33ec41abd95eb55a3e9ec,
     type: 3}
-  anotherTurretPrefab: {fileID: 1331046964667528, guid: 0869152e7a9d8394b98ce44152f6b114,
-    type: 3}
+  squirtGunPrefab: {fileID: 0}
 --- !u!114 &696555146
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14550,7 +14549,7 @@ MonoBehaviour:
     prefab: {fileID: 6547975050755772716, guid: 4ccc380d20a33ec41abd95eb55a3e9ec,
       type: 3}
     cost: 100
-  anotherTurret:
+  squirtGunPrefab:
     prefab: {fileID: 0}
     cost: 0
 --- !u!4 &1620414484 stripped

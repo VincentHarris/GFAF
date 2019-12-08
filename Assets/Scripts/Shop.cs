@@ -3,7 +3,7 @@
 public class Shop : MonoBehaviour
 {
     public TurretBlueprint standardTurret;
-    public TurretBlueprint anotherTurret;
+    public TurretBlueprint squirtGunPrefab;
     
     //public TurretBlueprint missileLauncher;
 
@@ -20,10 +20,10 @@ public class Shop : MonoBehaviour
         buildManager.SelectTurretToBuild (standardTurret);
     }
 
-    public void SelectAnotherTurret ()
+    public void SelectSquirtGun()
     {
-        Debug.Log ("Another Turret Selected");
-        buildManager.SelectTurretToBuild(anotherTurret);
+        Debug.Log ("Squirt Gun Selected");
+        buildManager.SelectTurretToBuild(squirtGunPrefab);
     }
 
 /* 

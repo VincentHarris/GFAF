@@ -1,0 +1,192 @@
+fileFormatVersion: 2
+guid: b4961f0792d84a2478b0757dc01411bf
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: BossEggMesh
+    100002: //RootNode
+    100004: LeftFoot
+    100006: LeftHand
+    100008: LeftKnee
+    100010: LeftLeg
+    100012: LeftLowerArm
+    100014: LeftLowerIndex
+    100016: LeftLowerMiddle
+    100018: LeftLowerPinky
+    100020: LeftLowerRing
+    100022: LeftLowerThumb
+    100024: LeftShoulder
+    100026: LeftUpperArm
+    100028: LeftUpperIndex
+    100030: LeftUpperMiddle
+    100032: LeftUpperPinky
+    100034: LeftUpperRing
+    100036: LeftUpperThumb
+    100038: RightFoot
+    100040: RightHand
+    100042: RightKnee
+    100044: RightLeg
+    100046: RightLowerArm
+    100048: RightLowerIndex
+    100050: RightLowerMiddle
+    100052: RightLowerPinky
+    100054: RightLowerRing
+    100056: RightLowerThumb
+    100058: RightShoulder
+    100060: RightUpperArm
+    100062: RightUpperIndex
+    100064: RightUpperMiddle
+    100066: RightUpperPinky
+    100068: RightUpperRing
+    100070: RightUpperThumb
+    100072: Root
+    400000: BossEggMesh
+    400002: //RootNode
+    400004: LeftFoot
+    400006: LeftHand
+    400008: LeftKnee
+    400010: LeftLeg
+    400012: LeftLowerArm
+    400014: LeftLowerIndex
+    400016: LeftLowerMiddle
+    400018: LeftLowerPinky
+    400020: LeftLowerRing
+    400022: LeftLowerThumb
+    400024: LeftShoulder
+    400026: LeftUpperArm
+    400028: LeftUpperIndex
+    400030: LeftUpperMiddle
+    400032: LeftUpperPinky
+    400034: LeftUpperRing
+    400036: LeftUpperThumb
+    400038: RightFoot
+    400040: RightHand
+    400042: RightKnee
+    400044: RightLeg
+    400046: RightLowerArm
+    400048: RightLowerIndex
+    400050: RightLowerMiddle
+    400052: RightLowerPinky
+    400054: RightLowerRing
+    400056: RightLowerThumb
+    400058: RightShoulder
+    400060: RightUpperArm
+    400062: RightUpperIndex
+    400064: RightUpperMiddle
+    400066: RightUpperPinky
+    400068: RightUpperRing
+    400070: RightUpperThumb
+    400072: Root
+    2100000: Legs
+    2100002: EggShell
+    2100004: Dark
+    2100006: lambert1
+    2100008: Arms
+    4300000: BossEggMesh
+    9500000: //RootNode
+    13700000: BossEggMesh
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arms
+    second: {fileID: 2100000, guid: d36f3c8fe33e2ff4b8aeda27e1b4d3c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dark
+    second: {fileID: 2100000, guid: 9d467beefbc5c254da8948168919e6ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: EggShell
+    second: {fileID: 2100000, guid: 8ea04cd8a2ff3844080df6c4cc4b4eb4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Legs
+    second: {fileID: 2100000, guid: 1a9b07dad23d3a046b669b5352a094a9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 0c68dd1cf0cc0db48a715352accd20d4, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
